@@ -4,7 +4,7 @@ import argparse
 
 
 ap = argparse.ArgumentParser()
-ap.add_argument("-a", "--annotation", type=str, default="annotated-files",
+ap.add_argument("-a", "--annotation", type=str, default="Images/landing",
 	help="path to input image")
 ap.add_argument("-p", "--percentage", type=int, default=10,
 	help="path to input EAST text detector")
@@ -13,7 +13,7 @@ args = ap.parse_args()
 annotation_dir = args.annotation
 percentage = args.percentage
 
-print(annotation_dir,percentage)
+print(annotation_dir, percentage)
 
 root_dir = os.getcwd()
 current_dir=annotation_dir

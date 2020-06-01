@@ -7,7 +7,8 @@
 #
 #-------------------------------------------------------------------------------
 from __future__ import division
-from PIL import Image, ImageTk
+import PIL.Image
+from PIL import ImageTk
 import os
 import sys
 import glob
@@ -158,7 +159,7 @@ class LabelTool():
                 tkMessageBox.showerror("Error!", message = "The folder should be numbers")
                 return
         if not os.path.isdir('./Images/%s' % self.category):
-           tkMessageBox.showerror("Error!", message = "The specified dir doesn't exist!")
+           tkMessageBox.showerror("Error!", message = "The specified dir doesn't exist! Have your tried adding the folder to /Images?")
            return
         # get image list
         self.imageDir = os.path.join(r'./Images', '%s' %(self.category))
@@ -184,7 +185,7 @@ class LabelTool():
     def loadImage(self):
         # load image
         imagepath = self.imageList[self.cur - 1]
-        self.img = Image.open(imagepath)
+        self.img = PIL.Image.open(imagepath)
         self.curimg_w, self.curimg_h = self.img.size
         self.tkimg = ImageTk.PhotoImage(self.img)
         self.mainPanel.config(width = max(self.tkimg.width(), 400), height = max(self.tkimg.height(), 400))

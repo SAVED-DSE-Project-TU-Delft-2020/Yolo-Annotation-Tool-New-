@@ -1,0 +1,2 @@
+/home/pcampolucci/Desktop/autonomy/src/perception/train_yolo/Yolo-Annotation-Tool-New-/Images/landing/003.jpg
+/home/pcampolucci/Desktop/autonomy/src/perception/train_yolo/Yolo-Annotation-Tool-New-/Images/landing/014.jpg
