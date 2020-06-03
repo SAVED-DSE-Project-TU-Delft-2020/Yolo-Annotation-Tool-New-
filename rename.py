@@ -1,3 +1,8 @@
+"""
+Title: Script for renaming and resizing of newly inserted images
+"""
+
+# import packages
 import os
 from os import listdir
 from PIL import Image

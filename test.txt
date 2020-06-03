@@ -1,6 +1,6 @@
-/home/pcampolucci/Desktop/autonomy/src/perception/train_yolo/Yolo-Annotation-Tool-New-/Images/landing/010.jpg
-/home/pcampolucci/Desktop/autonomy/src/perception/train_yolo/Yolo-Annotation-Tool-New-/Images/landing/060.jpg
-/home/pcampolucci/Desktop/autonomy/src/perception/train_yolo/Yolo-Annotation-Tool-New-/Images/landing/058.jpg
-/home/pcampolucci/Desktop/autonomy/src/perception/train_yolo/Yolo-Annotation-Tool-New-/Images/landing/029.jpg
-/home/pcampolucci/Desktop/autonomy/src/perception/train_yolo/Yolo-Annotation-Tool-New-/Images/landing/052.jpg
-/home/pcampolucci/Desktop/autonomy/src/perception/train_yolo/Yolo-Annotation-Tool-New-/Images/landing/047.jpg
+/home/pcampolucci/autonomy/src/perception/train_yolo/Yolo-Annotation-Tool-New-/Images/landing/010.jpg
+/home/pcampolucci/autonomy/src/perception/train_yolo/Yolo-Annotation-Tool-New-/Images/landing/060.jpg
+/home/pcampolucci/autonomy/src/perception/train_yolo/Yolo-Annotation-Tool-New-/Images/landing/058.jpg
+/home/pcampolucci/autonomy/src/perception/train_yolo/Yolo-Annotation-Tool-New-/Images/landing/029.jpg
+/home/pcampolucci/autonomy/src/perception/train_yolo/Yolo-Annotation-Tool-New-/Images/landing/052.jpg
+/home/pcampolucci/autonomy/src/perception/train_yolo/Yolo-Annotation-Tool-New-/Images/landing/047.jpg
